@@ -2,7 +2,7 @@
 
 In order to run the app, you need to follow the installation instructions using this [link](https://github.com/andela-technology/qe-coding-challenge/blob/master/setup.md).
 
-# Test automation Framework
+# Test Automation Framework
 
 ## About this project
 * The project holds automation tests for *GitHub repositories search program*.
@@ -13,13 +13,14 @@ In order to run the app, you need to follow the installation instructions using 
 * The project is using Cucumber html report for reporting.
 
 
-## Framework setup
+## Framework Setup
 
-1. Clone the project from [here](https://github.com/afilipchuk/qe-coding-challenge-testing/).
-2. Open the project in your IDE.
-3. Install Cucumber for Java plugin in your IDE.
-4. Install Gherkin plugin in your IDE.
-5. Run the following command in the terminal to install the dependencies, run the tests and generate the report:
+1. This project will require Java and Maven installation and configuration(JAVA_HOME).
+2. Clone the project from [here](https://github.com/afilipchuk/qe-coding-challenge-testing/).
+3. Open the project in your IDE.
+4. Install Cucumber for Java plugin in your IDE.
+5. Install Gherkin plugin in your IDE.
+6. Run the following command in the terminal to install the dependencies, run the tests and generate the report:
 ```
 mvn clean install
 ```
